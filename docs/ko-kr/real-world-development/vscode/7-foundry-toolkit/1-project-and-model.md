@@ -42,7 +42,7 @@ Tailspin 후원자는 신뢰할 수 있는 추천을 원합니다. 퍼즐 게임
 5. **Agent** 모드로 새 Copilot Chat을 열고 다음과 같이 요청합니다.
 
    ```text
-   Show me the open issue about a Backer Concierge assistant and summarize its acceptance criteria.
+   Backer Concierge 도우미에 관한 열린 이슈를 보여 주고 인수 기준을 요약해 주세요.
    ```
 
 6. Copilot이 **Add a Backer Concierge assistant for catalog questions** 이슈를 표시하는지 확인합니다. 수락 기준은 근거에 기반한 답변, 모금액을 지어내지 않는 동작, 명확히 하기 위한 질문 하나, 엔드투엔드 테스트를 갖춘 접근성 있는 UI를 요구합니다.

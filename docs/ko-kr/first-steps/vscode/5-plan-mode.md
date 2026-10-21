@@ -21,7 +21,7 @@ Plan 모드는 파일을 변경하지 않고 워크스페이스를 조사하여 
 3. 다음 프롬프트로 다음 기능을 설명하고 Copilot이 워크스페이스를 조사하게 합니다.
 
    ```plaintext
-   Plan how to add a review screen that shows every question with the answer I chose. Investigate the existing quiz, list the changes you would make, call out accessibility and single-file risks, and stop before editing.
+   내가 선택한 답과 함께 모든 문항을 표시하는 검토 화면을 추가할 계획을 세워 주세요. 기존 퀴즈를 조사하고 변경할 사항을 나열하고, 접근성과 단일 파일 제약 조건의 위험을 짚은 다음 편집 전에 중단해 주세요.
    ```
 
 4. 계획을 읽고 수정을 요청한 다음 **Agent**로 다시 전환하여 구현합니다.

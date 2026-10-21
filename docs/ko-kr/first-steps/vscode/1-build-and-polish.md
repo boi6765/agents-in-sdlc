@@ -19,7 +19,7 @@ lastUpdated: 2026-09-28
 Copilot Chat에서 다음 프롬프트를 보냅니다.
 
 ```plaintext
-Create a colorful, accessible space exploration quiz with 10 questions in a single index.html. Add a progress bar, score counter, animated correct and incorrect feedback, and a results screen. Use no server or dependencies. Open it in the VS Code integrated browser.
+단일 `index.html` 파일에 다채롭고 접근성 있는 우주 탐험 퀴즈를 만들어 주세요. 문항은 10개로 하고 진행률 표시줄, 점수 표시기, 정답과 오답 애니메이션 피드백, 결과 화면을 추가해 주세요. 서버나 종속성은 사용하지 마세요. VS Code 통합 브라우저에서 열어 주세요.
 ```
 
 1. 편집기에서 생성된 파일을 검토합니다.
@@ -35,7 +35,7 @@ Create a colorful, accessible space exploration quiz with 10 questions in a sing
 3. 다음 프롬프트를 보내고 미리 보기가 새로 고쳐지는 모습을 지켜봅니다.
 
    ```plaintext
-   Using the selected element, make the answer buttons feel more tactile: add a subtle press state, a clearer focus ring for keyboard users, and a smoother transition into the correct and incorrect colors. Change nothing else.
+   선택한 요소를 사용하여 답변 버튼을 더 입체적으로 만들어 주세요. 은은한 눌림 상태, 키보드 사용자를 위한 더 선명한 포커스 링, 정답과 오답 색상으로 더 부드럽게 전환되는 효과를 추가해 주세요. 다른 부분은 변경하지 마세요.
    ```
 
 4. 변경 사항을 유지하기 전에 **Source Control**에서 변경 사항을 읽습니다.

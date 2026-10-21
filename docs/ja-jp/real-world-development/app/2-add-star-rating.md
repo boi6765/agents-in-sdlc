@@ -36,7 +36,7 @@ Tailspin Toys の各ゲームには星評価を設定でき、ゲーム詳細ペ
 4. プロンプトボックスの下で **new working tree** と **Interactive** モードを選択します。次のプロンプトを使って変更を依頼します。
 
     ```plaintext
-    Show each game's starRating out of 5 in the game cards on the list page. If the rating is null, show "No rating yet". Keep the card layout as it is, add tests, and run the relevant checks.
+    一覧ページのゲームカードに、各ゲームの starRating を 5 点満点で表示してください。評価が null の場合は "No rating yet" と表示してください。カードのレイアウトは変更せず、テストを追加して、関連するチェックを実行してください。
     ```
 
 5. <kbd>Enter</kbd> を押して、プロンプトを Copilot に送信します。
@@ -80,7 +80,7 @@ AI が生成したすべての変更は、どれほど小さくてもマージ�
 1. 次のプロンプトを使い、アプリを起動してブラウザーキャンバスでページを開くよう Copilot に依頼します。
 
     ```plaintext
-    Start the app and open it in the browser canvas.
+    アプリを起動して、ブラウザーキャンバスで開いてください。
     ```
 
 2. しばらくするとアプリが起動し、Copilot app 内にブラウザーウィンドウが開きます。
@@ -88,7 +88,7 @@ AI が生成したすべての変更は、どれほど小さくてもマージ�
 4. 確認が終わったら、次のプロンプトを使い、このセッションで起動した開発サーバーを停止するよう Copilot に依頼します。
 
     ```plaintext
-    Stop the dev server and close the browser canvas.
+    開発サーバーを停止して、ブラウザーキャンバスを閉じてください。
     ```
 
 ## 最初の pull request を作成してマージする

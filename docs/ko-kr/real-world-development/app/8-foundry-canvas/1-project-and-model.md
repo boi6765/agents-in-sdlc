@@ -92,7 +92,7 @@ Tailspin Toys 후원자는 카테고리와 퍼블리셔로 게임을 필터링�
 13. 동일한 이슈 세션에서 다음을 입력합니다.
 
     ```plaintext
-    Use the Microsoft Foundry skill to create a resource group named rg-tailspin-toys and a Foundry project named tailspin-toys.
+    Microsoft Foundry 스킬을 사용하여 `rg-tailspin-toys`라는 리소스 그룹과 `tailspin-toys`라는 Foundry 프로젝트를 만들어 주세요.
     ```
 
     ![Foundry 프로젝트 생성](../../../../_images/app-8-foundry-project-created.png)
@@ -100,7 +100,7 @@ Tailspin Toys 후원자는 카테고리와 퍼블리셔로 게임을 필터링�
 14. Copilot에 모델을 추천하도록 요청합니다. 이슈에서 시작한 세션이므로 이슈의 승인 기준이 이미 컨텍스트에 포함되어 있습니다.
 
     ```plaintext
-    Use the Microsoft Foundry skill to recommend two or three current chat models in the tailspin-toys project that meet this issue's acceptance criteria. Explain the tradeoffs and wait for me to choose.
+    Microsoft Foundry 스킬을 사용하여 이슈의 인수 기준에 맞는 현재 사용 가능한 채팅 모델 2~3개를 `tailspin-toys` 프로젝트에서 추천해 주세요. 장단점을 설명하고 제가 선택할 때까지 기다려 주세요.
     ```
 
 15. Copilot이 `microsoft-foundry` 스킬을 로드하는지 확인한 다음, 장단점을 고려하여 사용 가능한 모델을 선택합니다. Microsoft Foundry 호스팅 에이전트 빠른 시작에서는 현재 `gpt-5.4-mini`를 사용하지만, 가용성과 할당량은 지역에 따라 다릅니다.
@@ -129,7 +129,7 @@ Tailspin Toys 후원자는 카테고리와 퍼블리셔로 게임을 필터링�
 20. 동일한 세션에 다음 프롬프트를 입력합니다.
 
     ```plaintext
-    Microsoft Foundry 스킬을 사용하여 에이전트를 만들지 않고 tailspin-toys 프로젝트에 배포한 모델을 직접 테스트합니다. @db/catalog.json의 콘텐츠를 근거로 "버그를 추적하는 퍼즐 게임을 좋아합니다. 어떤 게임을 후원해야 하며, 얼마나 많은 자금을 모았나요?"라고 질문합니다. 응답과 사용한 토큰 수, 응답 시간 등의 유용한 메타데이터를 확인할 수 있는 경우에만 표시합니다. 기존 Azure 로그인을 사용합니다. 자격 증명을 표시하거나 파일을 변경하거나 리소스를 만들지 않습니다.
+    Microsoft Foundry 스킬을 사용하여 에이전트를 만들지 않고 `tailspin-toys` 프로젝트에 배포한 모델을 직접 테스트해 주세요. `@db/catalog.json`의 콘텐츠를 근거로 "버그를 추적하는 퍼즐 게임을 좋아합니다. 어떤 게임을 후원해야 하며, 얼마나 많은 자금을 모았나요?"라고 질문해 주세요. 응답과 사용한 토큰 수, 응답 시간 등 확인할 수 있는 유용한 메타데이터를 보여 주세요. 기존 Azure 로그인을 사용하고, 자격 증명을 표시하거나 파일을 변경하거나 리소스를 만들지 마세요.
     ```
 
 21. 응답을 검토합니다. `db/catalog.json`에 실제로 있는 게임만 추천하고 올바른 제목, 퍼블리셔, 평점을 사용하며 자금 조달 정보가 없다고 설명해야 합니다. 모델이 게임, 카탈로그 세부 정보 또는 자금 조달 금액을 지어내면 계속하기 전에 다른 추천 모델과 비교합니다.

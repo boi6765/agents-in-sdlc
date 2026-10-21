@@ -74,7 +74,7 @@ Tailspin Toys에는 데이터베이스를 살펴보는 캔버스가 이미 포�
 1. 동일한 세션에서 `/create-canvas`를 입력한 다음 만들려는 캔버스를 설명합니다.
 
    ```plaintext
-   Create a Kanban triage canvas for this repo's open issues and save it under .github/extensions/. Highlight the three issues you'd prioritize and explain why, with the rest below. Include summaries and links.
+   이 리포지토리의 열린 이슈를 분류하는 Kanban 캔버스를 만들고 `.github/extensions/`에 저장해 주세요. 우선순위가 가장 높은 이슈 세 개를 강조하고 이유를 설명한 다음, 나머지 이슈를 아래에 배치해 주세요. 요약과 링크를 포함해 주세요.
 
    Give each card an "Add to current context" action that adds the issue details without starting work or changing the issue. Make it keyboard-accessible and open it so I can try it.
    ```

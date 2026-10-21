@@ -51,7 +51,7 @@ Verifique **Context** à medida que a sessão avança. Conforme o contexto é pr
 O navegador integrado é um navegador de verdade, então o agente pode operar o quiz e verificar seu comportamento. Envie o seguinte prompt:
 
 ```plaintext
-Run a browser-level smoke test for the quiz in the integrated browser. Check keyboard navigation, score updates, correct and incorrect feedback, and the results screen. Fix any failures, then report what passed.
+Execute um teste básico de funcionamento do quiz no navegador integrado. Verifique a navegação pelo teclado, as atualizações da pontuação, o feedback de respostas corretas e incorretas e a tela de resultados. Corrija as falhas e informe o que foi aprovado.
 ```
 
 1. Observe o navegador integrado enquanto o agente percorre as perguntas.

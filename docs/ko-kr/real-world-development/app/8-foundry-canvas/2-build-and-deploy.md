@@ -95,7 +95,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 10. **환각(Hallucination) 유도 질문**을 테스트합니다.
 
     ```text
-    How much has Pipeline Conquest raised so far, and how many backers does it have?
+    Pipeline Conquest는 지금까지 얼마를 모금했고 후원자는 몇 명인가요?
     ```
 
     예상 결과: 카탈로그에는 펀딩이나 후원자 정보가 없음을 설명하고, 대신 카탈로그에 있는 정보를 제공합니다.
@@ -119,7 +119,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 13. **순위 정확성**을 테스트합니다.
 
     ```text
-    What are your three highest rated games?
+    평점이 가장 높은 게임 세 가지는 무엇인가요?
     ```
 
     예상 결과: 카탈로그에서 평점이 가장 높은 게임 세 개를 올바른 순서와 평점으로 반환합니다.
@@ -127,7 +127,7 @@ Canvas는 Backer Concierge를 기존 모델 배포에 연결하는 코드, 폴�
 14. 동일한 대화에서 다음 프롬프트를 보내 **대화 연속성**을 테스트합니다.
 
     ```text
-    Show me two highly rated strategy games.
+    평점이 높은 전략 게임 두 개를 보여 주세요.
     ```
 
     ```text

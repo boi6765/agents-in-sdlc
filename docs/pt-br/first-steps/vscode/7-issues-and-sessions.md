@@ -19,7 +19,7 @@ Nesta lição, você vai:
 Envie o seguinte prompt:
 
 ```plaintext
-Review the space quiz and suggest three focused feature ideas. Use the GitHub tools to create a separate issue for each with a clear title, user-focused description, and acceptance criteria. Do not implement them yet.
+Revise o Space Quiz e sugira três ideias de recursos com escopo bem definido. Use as ferramentas do GitHub para criar uma issue separada para cada ideia, com título claro, descrição voltada aos usuários e critérios de aceitação. Não as implemente ainda.
 ```
 
 ## Implementar uma issue
